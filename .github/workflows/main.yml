@@ -3,46 +3,50 @@ name: Hexo to Vercel
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]  # 如果源文件在 master 分支
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 18.x ]  # 保持与你的示例一致
+    permissions:  # 关键权限配置
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: 1. 检出源码 🛎️
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整提交历史
+          fetch-depth: 0
 
-      - name: 2. 设置 Node.js ${{ matrix.node-version }} ⚙️
+      - name: 2. 设置 Node.js ⚙️
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'  # 自动缓存 node_modules
+          node-version: 18.x
+          cache: 'npm'
 
-      - name: 3. 安装 Hexo 依赖 📦
+      - name: 3. 安装依赖 📦
         run: |
           npm install -g hexo-cli
-          npm ci  # 使用 clean install 保持依赖一致性
+          npm ci
 
       - name: 4. 生成静态文件 🏗️
         run: |
           hexo clean
-          hexo generate
+          hexo generate --debug
+
+      - name: 4.5 验证生成结果 🔍
+        run: |
+          ls -la public
+          du -sh public
 
       - name: 5. 部署到 Vercel 分支 🚀
         uses: peaceiris/actions-gh-pages@v3.9.1
         with:
-          # 关键配置修改点：
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: vercel      # 目标分支名称
-          publish_dir: ./public      # Hexo 的生成目录
-          keep_files: false           # 清除旧文件
-          force_orphan: true          # 始终保持单次提交
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
+          publish_branch: vercel
+          publish_dir: ./public
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: "Deploy: ${{ github.sha }}"
