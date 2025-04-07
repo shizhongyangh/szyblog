@@ -16,6 +16,7 @@ menu:
   社交 || icon-shejiaoxinxi || faa-tada || hide:
     留言板: /comments/ || icon-liuyan || faa-tada
     友人帐: /social/link/ || icon-lianjie || faa-tada
+    账号: /box/account/ || icon-paperplane || faa-tada
   网站 || icon-wangye || faa-tada || hide:
     网站统计: /site/census/ || icon--tongjibiao || faa-tada
     文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
