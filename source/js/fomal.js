@@ -3426,19 +3426,12 @@ function createWinbox() {
 {% folding cyan, 查看风景背景 %}
 <div class="bgbox">
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj1.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj2.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj2.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj3.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj3.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj4.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj4.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj5.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj5.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj6.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj6.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj7.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj7.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj8.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj8.webp)')"></a>
 
 
@@ -3450,19 +3443,12 @@ function createWinbox() {
 {% folding cyan, 查看萌宠背景 %}
 <div class="bgbox">
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc1.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc2.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc2.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc3.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc3.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc4.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc4.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc5.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc5.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc6.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc6.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc7.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc7.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc8.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc8.webp)')"></a>
 
 </div>
@@ -3503,19 +3489,12 @@ function createWinbox() {
 {% folding cyan, 查看适配手机的背景 %}
 <div class="bgbox">
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb4.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb5.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb5.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb6.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb6.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb7.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb7.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb8.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb8.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb9.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb9.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb16.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb16.webp)')"></a>
-
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
 
 </div>
