@@ -912,6 +912,7 @@ inject:
     - <span id="fps"></span> # 帧率检测
     - <style id="defineBg"></style> # 自定义背景选项
     - <style id="menu_shadow"></style> # 菜单发光样式
+    - <link rel="stylesheet" href="https://scdn.星.fun/icp.css">
 
   bottom:
     - <script type="text/javascript" src="//js.users.51.la/21952647.js"></script>
