@@ -376,7 +376,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://hexo-blog-twikoo-cyan.vercel.app
+  envId: https://twikoo.szyd.fun
   region: ap-east-1
   visitor: false
   option:
