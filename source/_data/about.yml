@@ -1,0 +1,68 @@
+- class_name: 关于页
+  subtitle: 未来已来，尽在掌握！
+  avatarImg: /imgs/avatar.png
+  avatarSkills:
+    left:
+    - 🤖️ 主研后端不善前端
+    - 🔍 新人UP主什么都懂
+    - 🔨 什么都懂但懂得不多
+    right:
+    - 设计剪辑GET中 🤝
+    - 软硬件样样会一点点 🧱
+    - 被小白折磨已玉玉 💢
+  name: Fry酥条.
+  description: 是一名 学生、独立开发者、博主
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 好奇心 而去
+    word:
+      - 学习
+      - 生活
+      - 编程
+      - MC
+  helloAbout: Hello World!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: 幼儿园大班毕业
+        color: "#357ef5"
+      - desc: 小学六年扛把子
+        color: "#357ef5"
+      - desc: 初中三年光膀子
+        color: "#357ef5"
+    img: /imgs/689c10c68d505.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: /imgs/689c10e97c181.jpg
+  map:
+    title: 我最向往的地方
+    StrengthenTitle: 中国，杭州市
+    background: /imgs/689c11ad7b311.png
+    backgroundDark: /imgs/689c11ad7b311.png
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2013
+    selfInfoTips2: 所在城市
+    selfInfoContent2: 福州市
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 初一牲👨‍🎓
+  personalities:
+    author_name: 守护者
+    personality_type: ISFJ-A
+    photo_url: https://www.16personalities.com/static/images/types/headers/defender-desktop1.svg
+    personality_img: https://www.16personalities.com/static/images/personality-types/avatars/faces/isfj-defender-s3-v1-male.svg
+    name_url: https://www.16personalities.com/ch/isfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 未来已来，
+    maxim_bottom: 尽在掌握！
+  buff:
+    buff_tips: 特长
+    buff_top: 脑回路新奇的 酸菜鱼
+    buff_bottom: CS指数 MAX
