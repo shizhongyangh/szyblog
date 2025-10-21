@@ -1,0 +1,52 @@
+name: Hexo to Vercel
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:  # 关键权限配置
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: 1. 检出源码 🛎️
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 2. 设置 Node.js ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+          cache: 'npm'
+
+      - name: 3. 安装依赖 📦
+        run: |
+          npm install -g hexo-cli
+          npm ci
+
+      - name: 4. 生成静态文件 🏗️
+        run: |
+          hexo clean
+          hexo generate --debug
+
+      - name: 4.5 验证生成结果 🔍
+        run: |
+          ls -la public
+          du -sh public
+
+      - name: 5. 部署到静态分支 🚀
+        uses: peaceiris/actions-gh-pages@v3.9.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: public
+          publish_dir: ./public
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "Deploy: ${{ github.sha }}"
