@@ -1,4 +1,4 @@
-name: Hexo to Vercel
+name: 生成静态文件
 
 on:
   workflow_dispatch:
