@@ -24,6 +24,7 @@ SZYBLOG 是一个基于AnZhiyu主题进行魔改，简洁、美观、二次元�
 - Git（可选，用于部署）
 
 ## 安装与快速开始
+### 方法一：本地部署
 1. 安装 Hexo（若尚未安装）：
    - npm install -g hexo-cli
 2. 在 Hexo 博客根目录中安装或复制本主题：
@@ -33,6 +34,11 @@ SZYBLOG 是一个基于AnZhiyu主题进行魔改，简洁、美观、二次元�
 4. 安装依赖并启动本地预览：
    - npm install
    - hexo clean && hexo s
+### 方法二：GitHub克隆部署
+1. 克隆本仓库
+2. 按配置说明直接更改文件
+3. 等待工作流完成
+4. 使用Vercel或者GitHub Pages将生成在public分支的静态文件进行公网部署
 
 ## 配置说明
 注意：以下教程为基础教程，详细内容请进入[AnZhiyu主题](https://docs.anheyu.com)寻求帮助
