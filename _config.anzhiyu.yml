@@ -6,7 +6,7 @@ menu:
      全部文章: /archives/
 
    休闲: 
-     影院: /live/movies/ || anzhiyu-icon-play
+     影院: /movies/ || anzhiyu-icon-play
 
 
    网站推荐: 
@@ -15,8 +15,8 @@ menu:
      SZY图床: https://img.szyd.fun/
 
    关于本人:
-     关于本人: /live/about/ || anzhiyu-icon-paper-plane
-     恋爱小屋: /live/love/ || anzhiyu-icon-heartbeat
+     关于本人: /about/ || anzhiyu-icon-paper-plane
+     恋爱小屋: /love/ || anzhiyu-icon-heartbeat
      友人帐: /link/ || anzhiyu-icon-link
      
 
@@ -272,10 +272,9 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit: # 目前仅可选择一个平台在线编辑
-  enable: false
-  # github: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
+  enable: true
+  github: https://github.com/shizhongyangh/szyblog/edit/main/source/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  github: false
 
   # yuque: https://www.yuque.com/user-name/repo-name/
   # 示例: https://www.yuque.com/yuque/yuque/
@@ -1206,13 +1205,13 @@ greetingBox:
 # 文章顶部ai摘要
 post_head_ai_description:
   enable: false
-  gptName: AnZhiYu
+  gptName: SZY
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
-  key: xxxx
+  key: S-8CNZ3DJU0W2G4L6S
   Referer: https://xx.xx/
 
 # 快捷键配置

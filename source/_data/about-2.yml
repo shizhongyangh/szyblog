@@ -31,18 +31,13 @@
     tips: 生涯
     title: 无限进步
     list:
-      - desc: 前端专业
+      - desc: 前端工程
         color: "#357ef5"
-    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+    img: https://cdn.szyd.fun/shizhongyan/68fa408d16c4d.png
   statistic:
     link: /archives
     text: 文章隧道
     cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
-  map:
-    title: 我现在住在
-    StrengthenTitle: 中国，北京市
-    background: https://cdn.szyd.fun/shizhongyan/68fa4843157d7.png
-    backgroundDark: https://cdn.szyd.fun/shizhongyan/68fa4843157d7.png
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2013
@@ -60,22 +55,14 @@
     maxim_tips: 座右铭
     maxim_top: 世界在眼前，
     maxim_bottom: 执掌于手心。
+  map:
+    background: /images/map-bg.jpg  # 地图默认背景图（放在 source/images/ 下）
+    backgroundDark: /images/map-bg-dark.jpg  # 深色模式背景图
+    title: 我的足迹  # 地图模块底部标题（对应 CSS 中的 .map-title）
   buff:
     buff_tips: 特长
     buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
-  game:
-    game_tips: 爱好游戏
-    game_title: Minecraft
-    game_uid: "NAME:szy20130914"
-    game_bg: https://cdn.szyd.fun/shizhongyan/68c692c997e70.jpg
-  comic:
-    comic_tips: 爱好番剧
-    comic_title: 追番
-    comic_list:
-      - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
+    buff_bottom: 代码指数 MAX
   like:
     like_tips: 关注偏好
     like_title: 数码科技
@@ -83,10 +70,10 @@
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
-    music_title: 梦核
-    music_bg: https://cdn.szyd.fun/shizhongyan/68fa4758b681c.jpg
-    music_link: https://www.bilibili.com/video/BV19M411L74z/
+    music_title: 许嵩、民谣、华语流行
+    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_link: /music
   reward_list:
     - name: ShiZhongyan🍭
-      amount: 8.8
+      amount: 114.514
       datatime: 2025-10-23
