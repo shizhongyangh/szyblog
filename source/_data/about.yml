@@ -53,8 +53,8 @@
   personalities:
     author_name: 冒险家
     personality_type: ISFP-T
-    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
-    personality_img: https://cdn.szyd.fun/shizhongyan/68fa3d8a1e6cb.png
+    photo_url: https://www.16personalities.com/static/animations/type-descriptions/introductions/adventurer.svg?v=2
+    personality_img: https://www.16personalities.com/static/images/personality-types/avatars/faces/isfp-adventurer-s3-v1-female.svg?v=3
     name_url: https://www.16personalities.com/ch/isfp-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
@@ -74,8 +74,20 @@
     comic_title: 追番
     comic_list:
       - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
+        href: https://www.bilibili.com/bangumi/media/md22718131
+        cover: /imgs/about/fj/fj01.webp
+      - name: 少女乐队的呐喊
+        href: https://www.bilibili.com/bangumi/media/md23444913
+        cover: /imgs/about/fj/fj02.webp
+      - name: 名侦探柯南
+        href: https://www.bilibili.com/bangumi/media/md28228775
+        cover: /imgs/about/fj/fj03.webp
+      - name: 总之就是非常可爱
+        href: https://www.bilibili.com/bangumi/media/md28229676
+        cover: /imgs/about/fj/fj04.webp
+      - name: 总之就是非常可爱 第二季
+        href: https://www.bilibili.com/bangumi/media/md20266559
+        cover: /imgs/about/fj/fj05.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技

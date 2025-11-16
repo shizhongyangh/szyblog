@@ -10,19 +10,12 @@
       link: https://hexo.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/hexo.anheyu.com.jpg
+      siteshot: https://cdn.szyd.fun/2025/10/19/68f4591158c16.jpg
 
 - class_name: 推荐博客
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
-    - name: 安知鱼
-      link: https://hexo.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/hexo.anheyu.com.jpg
-      color: vip
-      tag: 技术
     - name: Fry_Fries小站
       link: https://blog.ctrlflow.us.kg
       avatar: https://cdn.szyd.fun/shizhongyan/68afa85daabba.jpg
@@ -30,19 +23,32 @@
       siteshot: https://cdn.szyd.fun/shizhongyan/68f45b0f6cb6b.png
       color: vip
       tag: 技术
-
+    - name: 【新】张钊睿的博客
+      link: https://new.zzrbk.xyz
+      avatar: https://cdn.szyd.fun/shizhongyan/68afa85de355a.jpg
+      descr: 你身边最亲近的人可能看一眼少一眼......
+      siteshot: /img/404.jpg
+      color: vip
+      tag: 技术
+    - name: 拉师傅
+      link: https://www.cnmnmsl.ink
+      avatar: https://cdn.tulan.cyou/tx.jpg
+      descr: 拉师傅的主页
+      siteshot: https://cdn.tulan.cyou/u/2025/10/24/image_1.png
+      color: speed
+      tag: 技术
 - class_name: 小伙伴
   class_desc: 那些人，那些事
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
-    - name: 安知鱼
-      link: https://hexo.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      recommend: true
     - name: Fry_Fries
       link: https://blog.ctrlflow.us.kg
       avatar: https://cdn.szyd.fun/shizhongyan/68afa85daabba.jpg
       descr: 你们都去关注我
+      recommend: true
+    - name: 张钊睿
+      link: https://new.zzrbk.xyz
+      avatar: https://cdn.szyd.fun/shizhongyan/68afa85de355a.jpg
+      descr: 你身边最亲近的人可能看一眼少一眼......
       recommend: true
