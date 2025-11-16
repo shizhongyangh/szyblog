@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ShiZhongyan🍭</title>
+  <icon>https://www.szyd.fun/imgs/avatar.png</icon>
+  <subtitle>万物可爱</subtitle>
+  <link href="https://www.szyd.fun/atom.xml" rel="self"/>
+  
+  <link href="https://www.szyd.fun/"/>
+  <updated>2025-11-16T14:34:39.078Z</updated>
+  <id>https://www.szyd.fun/</id>
+  
+  <author>
+    <name>ShiZhongyan🍭</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SZY自定义表单系统</title>
+    <link href="https://www.szyd.fun/post/2025111401/"/>
+    <id>https://www.szyd.fun/post/2025111401/</id>
+    <published>2025-11-16T10:10:00.000Z</published>
+    <updated>2025-11-16T14:34:39.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SZY自定义表单系统&quot;&gt;&lt;a href=&quot;#SZY自定义表单系统&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开源项目" scheme="https://www.szyd.fun/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="教程" scheme="https://www.szyd.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="开源项目" scheme="https://www.szyd.fun/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bilibili专栏</title>
+    <link href="https://www.szyd.fun/post/2025101902/"/>
+    <id>https://www.szyd.fun/post/2025101902/</id>
+    <published>2025-10-19T20:24:44.000Z</published>
+    <updated>2025-11-16T14:34:39.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文仅作B站专栏分区占位，无实际用途及意义&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="B站专栏" scheme="https://www.szyd.fun/categories/B%E7%AB%99%E4%B8%93%E6%A0%8F/"/>
+    
+    
+    <category term="B站专栏" scheme="https://www.szyd.fun/tags/B%E7%AB%99%E4%B8%93%E6%A0%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>550WOS介绍</title>
+    <link href="https://www.szyd.fun/post/2025101901/"/>
+    <id>https://www.szyd.fun/post/2025101901/</id>
+    <published>2025-10-19T20:24:44.000Z</published>
+    <updated>2025-11-16T14:34:39.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-1-项目概述&quot;&gt;&lt;a href=&quot;#1-1-项目概述&quot; class=&quot;headerlink&quot; title=&quot;1.1 项目概述&quot;&gt;&lt;/a&gt;1.1</summary>
+        
+      
+    
+    
+    
+    <category term="开源项目" scheme="https://www.szyd.fun/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="教程" scheme="https://www.szyd.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客魔改教程：一步步改造我的 AnZhiyu 主题</title>
+    <link href="https://www.szyd.fun/post/2025101801/"/>
+    <id>https://www.szyd.fun/post/2025101801/</id>
+    <published>2025-10-18T20:24:44.000Z</published>
+    <updated>2025-11-16T14:34:39.077Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;博客魔改教程-—-如何魔改我的-AnZhiyu-博客&quot;&gt;&lt;a href=&quot;#博客魔改教程-—-如何魔改我的-AnZhiyu-博客&quot; class=&quot;headerlink&quot; title=&quot;博客魔改教程 — 如何魔改我的 AnZhiyu 博客&quot;&gt;&lt;/a&gt;博客魔改教程</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.szyd.fun/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.szyd.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="博客魔改教程" scheme="https://www.szyd.fun/tags/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>

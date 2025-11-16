@@ -1,0 +1,239 @@
+/* ---------- 本地 霞鹜文楷 字体（从 source/fonts/font.woff2 加载） ---------- */
+@font-face {
+  font-family: "霞鹜文楷";
+  src: url("../fonts/font.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 可选：若只有常规字重，可用系统回退字重作为 700 的替代 */
+@font-face {
+  font-family: "霞鹜文楷";
+  src: url("../fonts/font.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 强制全站背景（优先级较高，覆盖主题其它背景设置） */
+:root, html, body, .site, .page, .home-top, .hero-area {
+  background-color: transparent !important;
+}
+
+/* 全站优先使用本地 霞鹜文楷，并保留常见中文回退 */
+:root, html, body, .site, .page, .home-top, .hero-area {
+  font-family: "霞鹜文楷", "Noto Serif CJK SC", "Noto Sans CJK SC",
+               "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB",
+               "Segoe UI", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 白天背景（默认） */
+html, body {
+  background-image: url('https://sourcebucket.s3.bitiful.net/img/dm3.webp') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-color: transparent !important;
+}
+
+/* 夜间背景覆盖 */
+[data-theme="dark"] html,
+[data-theme="dark"] body {
+  background-image: url('https://sourcebucket.s3.bitiful.net/img/yuanshen1.webp') !important;
+}
+
+/* 移动端优化：避免 fixed 导致性能或视觉问题 */
+@media (max-width: 768px) {
+  html, body {
+    background-attachment: scroll !important;
+    background-position: center top !important;
+  }
+}
+
+/* 若某些布局层级仍遮挡背景，可将下面选择器按需放开（示例注释）
+.site, .main, .container {
+  background: transparent !important;
+}
+*/
+
+#welcome-info {
+  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+  border-radius: 18px;
+  padding: 8px;
+}
+[data-theme="dark"] #welcome-info {
+  background: #212121;
+}
+#fps {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 1919810;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(12, 16, 22, 0.12);
+  backdrop-filter: blur(8px) saturate(1.05);
+  border: 1px solid rgba(0,0,0,0.04);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  transition: transform .18s ease, opacity .18s ease;
+  cursor: default;
+  min-width: 140px;
+}
+
+/* dot + text layout */
+#fps .fps-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #39c5bb;
+  box-shadow: 0 6px 18px rgba(57,197,187,0.28);
+  flex-shrink: 0;
+  transition: background .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+#fps .fps-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#fps .fps-main {
+  font-size: 13px;
+  font-weight: 800;
+}
+#fps .fps-sub {
+  font-size: 11px;
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+/* theme adjustments */
+[data-theme="light"] #fps {
+  background-color: rgba(255, 255, 255, 0.78);
+  color: var(--anzhiyu-fontcolor, #222);
+  border-color: rgba(66,90,239,0.06);
+}
+[data-theme="dark"] #fps {
+  background-color: rgba(18, 20, 24, 0.6);
+  color: #fff;
+  border-color: rgba(255,255,255,0.04);
+}
+
+/* status colors */
+#fps.low .fps-dot { background:#bd0000; box-shadow:0 6px 18px rgba(189,0,0,0.28); transform: scale(1.06); }
+#fps.medium .fps-dot { background:#ff8c42; box-shadow:0 6px 18px rgba(255,140,66,0.22); transform: scale(1.03); }
+#fps.good .fps-dot { background:#08b7e4; box-shadow:0 6px 18px rgba(8,183,228,0.22); }
+#fps.excellent .fps-dot { background:#39c5bb; box-shadow:0 8px 24px rgba(57,197,187,0.28); }
+
+/* subtle hover */
+#fps:hover { transform: translateY(-4px); }
+
+/* hide on small screens */
+@media (max-width: 768px) {
+  #fps { display: none !important; }
+}
+.ip-addr {
+  overflow-wrap: anywhere;
+  word-break: break-all; 
+  word-wrap: break-word;  
+  display: inline-block;  
+  max-width: 100%;       
+}
+#cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  border-radius: 50%;
+  z-index: 10086;
+  transform: translate3d(-50%, -50%, 0) scale(1);
+  transition: transform 200ms cubic-bezier(.2,.9,.3,1), opacity 160ms linear, background 160ms linear;
+  mix-blend-mode: normal;
+  will-change: transform, opacity;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+#cursor .cursor-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--theme-color, #39c5bb);
+  box-shadow: 0 6px 20px rgba(57,197,187,0.28);
+  transition: transform 160ms ease, background 160ms ease, opacity 160ms ease;
+  transform-origin: center;
+}
+
+#cursor .cursor-ring {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 12px 30px rgba(12,16,22,0.12);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+  transition: transform 260ms cubic-bezier(.2,.9,.3,1), opacity 240ms ease, box-shadow 200ms ease;
+  transform-origin: center;
+  pointer-events: none;
+}
+
+#cursor.hover .cursor-ring {
+  transform: scale(1.45);
+  opacity: 0.95;
+  box-shadow: 0 18px 48px rgba(57,197,187,0.16);
+}
+#cursor.hover .cursor-dot {
+  transform: scale(0.78);
+  background: var(--theme-color, #66d3c5);
+  box-shadow: 0 10px 28px rgba(57,197,187,0.28);
+}
+
+#cursor.active .cursor-dot {
+  transform: scale(0.45);
+  transition: transform 120ms cubic-bezier(.2,.9,.3,1);
+}
+#cursor.active .cursor-ring {
+  transform: scale(1.6);
+  opacity: 0.7;
+}
+
+@keyframes cursorRipple {
+  0% { transform: scale(0.5); opacity: 0.45; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+#cursor .cursor-ripple {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  pointer-events: none;
+  transform-origin: center;
+  opacity: 0;
+}
+
+#cursor .ripple-animate {
+  animation: cursorRipple 520ms cubic-bezier(.2,.9,.3,1);
+}
+
+/* 深色/浅色主题微调 */
+[data-theme="dark"] #cursor .cursor-ring { border-color: rgba(255,255,255,0.04); background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00)); }
+[data-theme="light"] #cursor .cursor-ring { border-color: rgba(0,0,0,0.06); background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.00)); }
+[data-theme="light"] #cursor .cursor-dot { box-shadow: 0 6px 20px rgba(102,102,102,0.12); }
+
+/* 保留小屏幕隐藏逻辑（若需要） */
+@media (max-width: 768px) {
+  #cursor { display: none !important; }
+}
